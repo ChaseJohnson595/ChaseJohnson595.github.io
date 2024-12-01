@@ -1,9 +1,34 @@
-body{
+body {
     background-color: rgb(22, 22, 22);
     margin: 0px;
 }
 
-#intro-section{
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#intro-section {
     /*border: 3px solid white;*/
     display: flex;
     align-items: center;
@@ -12,7 +37,7 @@ body{
     height: 350px;
 }
 
-#welcome-message{
+#welcome-message {
     color: white;
     font-size: 5em;
     display: flex;
@@ -26,25 +51,11 @@ body{
     height: 350px;
 }
 
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar li{
-    float: left;
-}
-
-.navbar{
+#bio {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    margin: 200px;
 }
