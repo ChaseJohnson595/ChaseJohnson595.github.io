@@ -1,4 +1,5 @@
 ## Hi there 👋
+## My name is Chase! Have a look around!
 
 <!--
 **ChaseJohnson595/chasejohnson595** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

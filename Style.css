@@ -1,3 +1,8 @@
+@font-face {
+    src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
+    font-family: Geologica;
+}
+
 body {
     background-color: rgb(22, 22, 22);
     margin: 0px;
@@ -9,6 +14,7 @@ body {
     padding: 15px;
     display: block;
     text-align: center;
+    font-family: Geologica;
 }
 
 .navbar ul {
@@ -33,18 +39,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 20px;
     height: 350px;
 }
 
-#welcome-message {
+.welcome-message {
+    /*border: 3px solid white;*/
     color: white;
     font-size: 5em;
     display: flex;
     align-items: center;
     text-align: center;
     float: left;
-    /*border: 3px solid white;*/
+    font-family: Geologica;
 }
 
 #headshot {
@@ -52,10 +58,56 @@ body {
 }
 
 #bio {
+    /*border: 3px solid white;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
     font-size: 2em;
     margin: 200px;
+    font-family: Geologica;
+}
+
+.projects {
+    /*border: 3px solid white;*/
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects div{
+    margin-bottom: 100px;
+}
+
+.project-description{
+    /*border: 1px solid white;*/
+    margin-bottom: 20px;
+}
+.project-description h2,p{
+    font-family: Geologica;
+    text-align: center;
+}
+
+.project-description h2{
+    margin-bottom: 75px;
+}
+
+.project-description p{
+    width: 500px;
+}
+
+#food-court-frenzy{
+    /*border: 3px solid white;*/
+    width: 90%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#food-court-frenzy img{
+    height: 350px;
+    float: left;
 }
