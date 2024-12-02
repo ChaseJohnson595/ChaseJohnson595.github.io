@@ -111,3 +111,34 @@ body {
     height: 350px;
     float: left;
 }
+
+.experiences{
+    /*border: 3px solid white;*/
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiences h2,p {
+    font-family: Geologica;
+    text-align: center;
+}
+
+.experiences h2 {
+    margin-bottom: 75px;
+}
+
+.experiences p {
+    width: 500px;
+    display: flex;
+}
+
+#robotics-club {
+    display: flex;
+    font-family: Geologica;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
