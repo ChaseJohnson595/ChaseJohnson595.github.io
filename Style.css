@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     src: url(Fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
     font-family: Geologica;
@@ -69,29 +73,38 @@ body {
     font-family: Geologica;
 }
 
-.projects {
-    /*border: 3px solid white;*/
-    padding: 5%;
+main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    color:white;
 }
 
-.projects div{
-    margin-bottom: 100px;
+.project-container {
+    /* border: 3px solid white; */
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project{
+    border: 3px outset rgb(54, 54, 54);
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .project-description{
-    /*border: 1px solid white;*/
-    margin-bottom: 20px;
-}
-.project-description h2,p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 3px dashed white; */
     font-family: Geologica;
     text-align: center;
-}
-
-.project-description h2{
-    margin-bottom: 75px;
+    align-content: space-evenly;
 }
 
 .project-description p{
@@ -100,11 +113,8 @@ body {
 
 #food-court-frenzy{
     /*border: 3px solid white;*/
-    width: 90%;
-    color: white;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgb(53, 53, 53);
 }
 
 #food-court-frenzy img{
@@ -112,33 +122,55 @@ body {
     float: left;
 }
 
-.experiences{
-    /*border: 3px solid white;*/
-    padding: 5%;
+.experiences-container {
+    /* border: 3px solid white; */
+    width: 100%;
+    height: 150vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.experiences h2,p {
+.experience {
+    border: 3px outset rgb(54, 54, 54);
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.experience-description {
     font-family: Geologica;
     text-align: center;
-}
-
-.experiences h2 {
-    margin-bottom: 75px;
-}
-
-.experiences p {
-    width: 500px;
     display: flex;
-}
-
-#robotics-club {
-    display: flex;
-    font-family: Geologica;
-    color: white;
-    text-align: center;
     flex-direction: column;
+    justify-content: center;
+    /* border: 3px dashed white; */
+    font-family: Geologica;
+    text-align: center;
+    align-content: space-evenly;
+    margin: 20px;
 }
+
+.experience-description p {
+    width: 500px;
+}
+
+.experience-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.experience-images img{
+    width: 40%;
+    height: 30%;
+}
+
+#botbase,#vexarena {
+    width: 400px;
+    height: 300px;
+}
+
