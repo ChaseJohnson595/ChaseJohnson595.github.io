@@ -95,6 +95,7 @@ main{
     height: 400px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .project-description{
@@ -134,11 +135,13 @@ main{
 
 .experience {
     border: 3px outset rgb(54, 54, 54);
-    width: 90%;
     height: 400px;
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
 }
 
 .experience-description {
@@ -163,14 +166,13 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    width: 750px;
 }
 .experience-images img{
-    width: 40%;
-    height: 30%;
+    width: 45%;
+    height: 35%;
+    margin: 10px;
 }
 
-#botbase,#vexarena {
-    width: 400px;
-    height: 300px;
-}
+
 
